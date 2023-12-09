@@ -1,0 +1,134 @@
+@media(min-width: 992px){
+    header{
+        background-color: #8ee2ff;
+        color: rgb(20, 20, 20);
+        text-align: center;
+        padding: 10px;
+        font-size: 1em;
+    }
+    
+    .home {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    section{
+        padding: 20px;
+    }
+    
+    .image-container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 2vh;
+        height: auto;
+        width: 15%;
+    }
+    
+    .image-container img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    
+    .company-discription{
+        font-family: Gill Sans, sans-serif;
+        text-align: left;
+        margin-left: 50px;
+        font-size: 1.5em;
+        margin-top: 10px;
+        width: 80%;
+    }
+}
+
+@media(min-width: 768px) and (max-width:992px) {
+    header{
+        background-color: #8ee2ff;
+        color: rgb(20, 20, 20);
+        text-align: center;
+        padding: 10px;
+        font-size: 1em;
+    }
+    
+    .home {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    section{
+        padding: 20px;
+    }
+    
+    .image-container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 2vh;
+        width: 50%;
+        height: auto;
+    }
+    
+    .image-container img{
+        width: 90%;
+        height: auto;
+        margin-bottom: 80px;
+        margin-left: 20px;
+    }
+    
+    .company-discription{
+        font-family: Gill Sans, sans-serif;
+        text-align: left;
+        margin-left: 50px;
+        font-size: 1.05em;
+        margin-top: 10px;
+        width: 80%;
+    }
+}
+@media (max-width: 767px)
+ {
+    header{
+        background-color: #8ee2ff;
+        color: rgb(20, 20, 20);
+        text-align: center;
+        padding: 10px;
+        font-size: 0.6em;
+    }
+    
+    .home {
+        justify-content: space-around;
+    }
+    
+    section{
+        padding: 20px;
+    }
+    
+    .image-container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 2vh;
+        height: auto;
+    }
+    
+    .image-container img{
+        width: 90%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    
+    .company-discription{
+        font-family: Gill Sans, sans-serif;
+        text-align: left;
+        margin-left: 50px;
+        font-size: 1.05em;
+        margin-top: 10px;
+        width: 80%;
+    }
+}

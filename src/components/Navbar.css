@@ -1,0 +1,184 @@
+@media(min-width: 992px){
+    .navbar{
+        background-color: rgb(20, 20, 20);
+    }
+    
+    nav img {
+        width: 25%;
+        height: 25%;
+        padding-right: 10%;
+    }
+    
+    .logoheader{
+        display:flex;
+        margin: auto 0;
+    }
+    
+    nav{
+        margin: 0 auto;
+        background-color: rgb(20, 20, 20);
+        overflow: hidden;
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    nav a:hover{
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .companyName{
+        font-size: 2em;
+        color:#ddd;
+        font-family: Gill Sans, sans-serif;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    
+    ul{
+        margin-bottom: auto;
+        margin-top: auto;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        font-family: Gill Sans, sans-serif;
+        font-size: 1.3em;
+    
+    }
+}
+
+@media(min-width: 768px) and (max-width:992px){
+    .navbar{
+        background-color: rgb(20, 20, 20);
+    }
+    
+    nav img {
+        width: 25%;
+        height: 25%;
+        padding-right: 10%;
+    }
+    
+    .logoheader{
+        display:flex;
+        margin: auto 0;
+        font-size: 0.5em;
+    }
+    
+    nav{
+        margin: 0 auto;
+        background-color: rgb(20, 20, 20);
+        overflow: hidden;
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 80%;
+    }
+    
+    nav a:hover{
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .companyName{
+        font-size: 2em;
+        color:#ddd;
+        font-family: Gill Sans, sans-serif;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    
+    ul{
+        margin-bottom: auto;
+        margin-top: auto;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        font-family: Gill Sans, sans-serif;
+        font-size: 1.3em;
+    
+    }
+}
+
+@media (max-width: 767px){
+    .navbar{
+        background-color: rgb(20, 20, 20);
+    }
+    
+    nav img {
+        width: 20%;
+        height: auto;
+        padding-right: 10%;
+    }
+    
+    .logoheader{
+        padding-left: 8%;
+        display:flex;
+        margin: auto 0;
+        font-size: 100%;
+    }
+    
+    nav{
+        margin: 0 auto;
+        background-color: rgb(20, 20, 20);
+        overflow: hidden;
+        width: 96%;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 50%;
+    }
+    
+    nav a:hover{
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .companyName{
+        font-size: 130%;
+        color:#ddd;
+        font-family: Gill Sans, sans-serif;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    
+    ul{
+        width: 77.5%;
+        margin-bottom: auto;
+        margin-top: auto;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        font-family: Gill Sans, sans-serif;
+        font-size: 135%;
+    
+    }
+}
